@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.guru.Fragments.NotificationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/googleg_standard_color_18"
+        android:text="  Name" />
+
+
+    <TextView
+        android:id="@+id/searchresults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="No Recent Search results "></TextView>
+
+    </LinearLayout>
+</FrameLayout>

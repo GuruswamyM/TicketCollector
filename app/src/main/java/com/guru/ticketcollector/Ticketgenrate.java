@@ -17,7 +17,7 @@ import androidx.cardview.widget.CardView;
 
 public class Ticketgenrate extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    String[] Stops = { "Hebbal", "Tinfactory", "HSR layour", "Silkbord", "BTM layout" , "Banashankri"};
+    String[] Stops = { "Hebbal", "Tinfactory", "HSR layour", "Silkbord", "BTM layout" , "Banashankri" };
 
     Button paynow;
 

@@ -9,18 +9,42 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="AC" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="NON AC" />
+
+        </LinearLayout>
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="10dp"
         android:text="Current Location" />
 
     <Spinner
         android:id="@+id/spinner_starting"
         android:layout_width="match_parent"
+        android:background="@drawable/spinner_border"
         android:gravity="center"
         android:layout_height="wrap_content" />
 
@@ -35,6 +59,7 @@
     <Spinner
         android:id="@+id/spinner_ending"
         android:layout_width="match_parent"
+        android:background="@drawable/spinner_border"
         android:layout_height="wrap_content" />
 
 
@@ -52,6 +77,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginTop="20dp"
+        android:background="@drawable/border"
         android:inputType="number" />
 
 
@@ -62,6 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Pay Here..!" />
+
+
 
     </LinearLayout>
 
